@@ -1,0 +1,9 @@
+plugins {
+    id 'client.java-conventions'
+}
+
+dependencies {
+}
+
+jar.enabled = true;
+bootJar.enabled = false;

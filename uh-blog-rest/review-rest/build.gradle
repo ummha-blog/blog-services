@@ -1,0 +1,7 @@
+plugins {
+    id 'rest.java-conventions'
+}
+
+dependencies {
+    implementation project(":uh-blog-application:review-port-in")
+}

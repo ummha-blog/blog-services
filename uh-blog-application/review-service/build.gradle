@@ -1,0 +1,8 @@
+plugins {
+    id 'application.java-conventions'
+}
+
+dependencies {
+    implementation project(":uh-blog-application:review-port-in")
+    implementation project(":uh-blog-application:review-port-out")
+}

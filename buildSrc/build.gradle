@@ -1,0 +1,26 @@
+plugins {
+    id 'groovy-gradle-plugin'
+}
+
+gradlePlugin {
+    plugins {
+        simplePlugin {
+            id = 'org.gradle.sample.simple-plugin'
+            implementationClass = 'org.gradle.sample.SimplePlugin'
+        }
+    }
+}
+
+repositories {
+    gradlePluginPortal()
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'org.springframework.boot:spring-boot-gradle-plugin:3.1.2'
+    implementation 'com.ewerk.gradle.plugins.querydsl:com.ewerk.gradle.plugins.querydsl.gradle.plugin:1.0.10'
+}
+
+apply {
+//    from 'gradle-script/custom.gradle'
+}

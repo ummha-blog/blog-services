@@ -1,0 +1,21 @@
+rootProject.name = 'blog-services'
+
+include 'uh-blog-client:core-client'
+include 'uh-blog-client:post-client'
+include 'uh-blog-client:review-client'
+
+include 'uh-blog-rest:post-rest'
+include 'uh-blog-rest:review-rest'
+
+include 'uh-blog-application:post-port-in'
+include 'uh-blog-application:post-port-out'
+include 'uh-blog-application:post-service'
+
+include 'uh-blog-application:review-port-in'
+include 'uh-blog-application:review-port-out'
+include 'uh-blog-application:review-service'
+
+include 'uh-blog-domain:post-domain'
+include 'uh-blog-domain:review-domain'
+
+

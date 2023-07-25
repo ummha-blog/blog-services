@@ -1,0 +1,8 @@
+plugins {
+    id 'application.java-conventions'
+}
+
+dependencies {
+    implementation project(":uh-blog-application:post-port-in")
+    implementation project(":uh-blog-application:post-port-out")
+}

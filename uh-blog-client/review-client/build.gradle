@@ -1,0 +1,12 @@
+plugins {
+    id 'client.java-conventions'
+}
+
+dependencies {
+    implementation project(":uh-blog-client:core-client")
+    implementation project(":uh-blog-rest:review-rest")
+    implementation project(":uh-blog-application:review-service")
+}
+
+jar.enabled = false;
+bootJar.enabled = true;
